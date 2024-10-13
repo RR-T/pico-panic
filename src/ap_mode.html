@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>JVV alarm config</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <h1>JVV pi pico alarm setup (no button)</h1>
+    <h2>Wifi details</h2>
+    <form action="./saveparams" method="get">
+        <input type="text" name="ssid" placeholder="ssid name" size="30" required>&nbsp;&nbsp;
+        <input type="password" name="ssid_password" placeholder="ssid password" size="20" required><br><br>
+        <input type="text" name="mqtt_server" placeholder="IP of mqtt server" size="15" required><br><br>
+        <input type="text" name="location" placeholder="Location of pico" size="15" required><br><br>
+        <button type="submit" name="Submit params">
+            Submit params
+        </button>
+    </form>
+    </body>
+</html>
